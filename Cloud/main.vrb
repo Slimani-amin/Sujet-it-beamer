@@ -1,0 +1,13 @@
+\frametitle{Exemple de commandes AWS CLI}
+\begin{exampleblock}{Commandes AWS CLI}
+		\begin{minted}[fontsize=\scriptsize]{bash}
+			# Créer une instance EC2
+			aws ec2 run-instances --image-id ami-0abcdef1234567890 --instance-type t2.micro --key-name my-key-pair
+			
+			# Lister les instances EC2
+			aws ec2 describe-instances
+			
+			# Créer un bucket S3
+			aws s3 mb s3://my-bucket
+		\end{minted}
+	\end{exampleblock}

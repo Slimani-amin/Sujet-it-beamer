@@ -1,0 +1,22 @@
+\frametitle{Commandes Git essentielles}
+\begin{exampleblock}{Exemples de commandes}
+		\begin{minted}[style=manni, fontsize=\scriptsize, linenos=true]{bash}
+# Initialiser un dépôt
+git init
+			
+# Ajouter des fichiers
+git add fichier.txt
+			
+# Faire un commit
+git commit -m "Message de commit"
+			
+# Ajouter un dépôt distant
+git remote add origin https://github.com/utilisateur/mon-depot.git
+			
+# Vérifier les dépôts distants
+git remote -v
+			
+# Pousser des modifications
+git push -u origin main
+		\end{minted}
+	\end{exampleblock}

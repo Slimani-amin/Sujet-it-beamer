@@ -1,0 +1,13 @@
+\frametitle{Exemple de commandes}
+\begin{exampleblock}{Commandes \texttt{netcat}}
+		\begin{minted}[fontsize=\scriptsize]{bash}
+# Écouter sur un port TCP
+nc -l -p 1234
+			
+# Envoyer des données via TCP
+echo "Hello TCP" | nc localhost 1234
+			
+# Envoyer des données via UDP
+echo "Hello UDP" | nc -u localhost 1234
+		\end{minted}
+	\end{exampleblock}

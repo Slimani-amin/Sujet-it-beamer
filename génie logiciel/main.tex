@@ -1,0 +1,157 @@
+\documentclass{clbeamer2024}
+
+\usepackage{minted}
+
+\usepackage{minted}
+\setminted{
+	breaklines=true,
+	frame=single,
+	bgcolor=lightgray,
+	fontsize=\small,
+	escapeinside=||
+}
+
+\usepackage{xcolor}
+\definecolor{bg}{rgb}{0.95, 0.95, 0.92} % Couleur gris clair
+
+\title{
+	%\includegraphics[width=0.5cm]{logos/IA1.png} \hfill
+        Introduction au Génie Logiciel
+	\includegraphics[width=0.7cm]{logos/gl.png} \hfill
+}
+\subtitle{Comprendre les bases du développement logiciel}
+\author{Slimani Mohamed Amine}
+\institute{EHTP}
+\date{\today}
+
+\begin{document}
+	\setcounter{framenumber}{-1}
+	\frame{\titlepage}
+	
+	
+	
+	% Sommaire
+	\begin{frame}{Sommaire}
+		\tableofcontents
+	\end{frame}
+	
+	
+	\section{Qu'est-ce que le Génie Logiciel ?}
+	\begin{frame}{Qu'est-ce que le Génie Logiciel ?}
+		\begin{itemize}
+			\item \textbf{Définition} : Le génie logiciel est l'application d'une approche systématique, disciplinée, et quantifiable au développement, à l'exploitation, et à la maintenance des logiciels.
+			\item \textbf{Objectif} : Produire des logiciels de haute qualité, fiables, et maintenables.
+			\item \textbf{Historique} : Né dans les années 1960 pour répondre à la complexité croissante des projets logiciels.
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Pourquoi le Génie Logiciel est-il important ?}
+	\begin{frame}{Pourquoi le Génie Logiciel est-il important ?}
+		\begin{itemize}
+			\item \textbf{Qualité} : Assurer la fiabilité et la performance des logiciels.
+			\item \textbf{Gestion de projet} : Planifier, organiser, et contrôler les ressources.
+			\item \textbf{Maintenance} : Faciliter les mises à jour et les corrections.
+		\end{itemize}
+	\end{frame}
+	
+	\section{Cycle de vie du développement logiciel (SDLC)}
+	\begin{frame}{Cycle de vie du développement logiciel (SDLC)}
+		\begin{itemize}
+			\item \textbf{Analyse des besoins} : Comprendre les exigences du client.
+			\item \textbf{Conception} : Définir l'architecture et les spécifications techniques.
+			\item \textbf{Implémentation} : Écrire le code.
+			\item \textbf{Tests} : Vérifier que le logiciel fonctionne comme prévu.
+			\item \textbf{Déploiement} : Mettre le logiciel en production.
+			\item \textbf{Maintenance} : Corriger les bugs et ajouter de nouvelles fonctionnalités.
+		\end{itemize}
+	\end{frame}
+	
+	\section{Modèles de développement}
+	\begin{frame}{Modèles de développement}
+		\begin{itemize}
+			\item \textbf{Modèle en cascade} : Étapes séquentielles (analyse, conception, implémentation, tests, déploiement).
+			\item \textbf{Modèle itératif} : Développement par cycles itératifs.
+			\item \textbf{Modèle agile} : Approche flexible et collaborative (ex : Scrum, Kanban).
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Outils et technologies}
+	\begin{frame}{Outils et technologies}
+		\begin{itemize}
+			\item \textbf{Gestion de version} : Git, SVN.
+			\item \textbf{Gestion de projet} : Jira, Trello.
+			\item \textbf{Tests automatisés} : Selenium, JUnit.
+			\item \textbf{Intégration continue} : Jenkins, GitHub Actions.
+		\end{itemize}
+	\end{frame}
+	
+	\section{Bonnes pratiques}
+	\begin{frame}{Bonnes pratiques}
+		\begin{itemize}
+			\item \textbf{Documentation} : Maintenir une documentation claire et à jour.
+			\item \textbf{Revues de code} : Améliorer la qualité du code grâce aux retours des pairs.
+			\item \textbf{Tests unitaires} : Vérifier le bon fonctionnement des composants individuels.
+		\end{itemize}
+	\end{frame}
+	
+	\section{Exemple de workflow agile avec Scrum}
+	\begin{frame}{Exemple de workflow agile avec Scrum}
+		\begin{itemize}
+			\item \textbf{Sprint planning} : Planifier les tâches pour le sprint.
+			\item \textbf{Daily stand-up} : Faire le point sur l'avancement.
+			\item \textbf{Sprint review} : Présenter les résultats du sprint.
+			\item \textbf{Sprint retrospective} : Identifier les améliorations pour le prochain sprint.
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Exemple de gestion de version avec Git}
+	\begin{frame}[fragile]{Exemple de gestion de version avec Git}
+		\begin{exampleblock}{Commandes Git}
+			\begin{minted}[fontsize=\scriptsize]{bash}
+# Cloner un dépôt
+git clone https://github.com/user/repo.git
+				
+# Créer une branche
+git checkout -b feature-branch
+				
+# Faire un commit
+git add .
+git commit -m "Ajouter une nouvelle fonctionnalité"
+				
+# Pousser les modifications
+git push origin feature-branch
+			\end{minted}
+		\end{exampleblock}
+	\end{frame}
+	
+	\section{Défis du Génie Logiciel}
+	\begin{frame}{Défis du Génie Logiciel}
+		\begin{itemize}
+			\item \textbf{Gestion des exigences} : Capturer et gérer les besoins changeants des clients.
+			\item \textbf{Complexité} : Gérer la complexité croissante des systèmes logiciels.
+			\item \textbf{Sécurité} : Protéger les logiciels contre les vulnérabilités.
+		\end{itemize}
+	\end{frame}
+	
+	\section{Pourquoi c'est important ?}
+	\begin{frame}{Pourquoi c'est important ?}
+		\begin{itemize}
+			\item Le génie logiciel est essentiel pour la création de logiciels de qualité.
+			\item Il englobe des méthodologies, des outils, et des bonnes pratiques pour gérer les projets logiciels.
+			\item Comprendre le génie logiciel est crucial pour les développeurs et les chefs de projet.
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Résumé}
+		\textbf{Le génie logiciel} est une discipline clé pour la création de logiciels de qualité, fiables, et maintenables.  
+		Adoptez les bonnes pratiques et les outils modernes pour réussir vos projets logiciels ! 
+	\end{frame}
+
+
+
+	
+	
+\end{document}

@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Qu'est-ce que React ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Pourquoi utiliser React ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Concepts de base de React}{5}{0}{3}
+\beamer@sectionintoc {4}{Exemple de composant React}{6}{0}{4}
+\beamer@sectionintoc {5}{Gestion de l'état avec useState}{7}{0}{5}
+\beamer@sectionintoc {6}{Bonnes pratiques}{9}{0}{6}
+\beamer@sectionintoc {7}{Outils pour travailler avec React}{10}{0}{7}
+\beamer@sectionintoc {8}{Exemple d'application React}{11}{0}{8}
+\beamer@sectionintoc {9}{Défis de React}{12}{0}{9}
+\beamer@sectionintoc {10}{Pourquoi c'est important ?}{13}{0}{10}

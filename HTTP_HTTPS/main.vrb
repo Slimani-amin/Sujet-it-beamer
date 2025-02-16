@@ -1,0 +1,10 @@
+\frametitle{Exemple de requête avec \texttt {curl}}
+\begin{exampleblock}{Commandes \texttt{curl}}
+			\begin{minted}[fontsize=\scriptsize]{bash}
+# Requête HTTP
+curl -v http://example.com
+				
+# Requête HTTPS
+curl -v https://example.com
+			\end{minted}
+		\end{exampleblock}

@@ -1,0 +1,13 @@
+\frametitle{Exemple de code avec \texttt {dig}}
+\begin{exampleblock}{Commandes \texttt{dig}}
+			\begin{minted}[fontsize=\scriptsize]{bash}
+# Interroger l'enregistrement A pour example.com
+dig example.com A
+				
+# Interroger l'enregistrement MX pour example.com
+dig example.com MX
+				
+# Interroger l'enregistrement TXT pour example.com
+dig example.com TXT
+			\end{minted}
+		\end{exampleblock}

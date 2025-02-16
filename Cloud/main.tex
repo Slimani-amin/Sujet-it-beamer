@@ -1,0 +1,140 @@
+\documentclass{clbeamer2024}
+
+\usepackage{minted}
+
+\usepackage{minted}
+\setminted{
+	breaklines=true,
+	frame=single,
+	bgcolor=lightgray,
+	fontsize=\small,
+	escapeinside=||
+}
+
+\usepackage{xcolor}
+\definecolor{bg}{rgb}{0.95, 0.95, 0.92} % Couleur gris clair
+
+\title{
+	\includegraphics[width=1cm]{logos/cloud.png} \hfill
+	Introduction au Cloud Computing
+	\includegraphics[width=1cm]{logos/cloud2.png} \hfill
+}
+\subtitle{Comprendre les bases du cloud et ses avantages}
+\author{Slimani Mohamed Amine}
+\institute{}
+\date{\today}
+
+\begin{document}
+	\setcounter{framenumber}{-1}
+	\frame{\titlepage}
+	
+	
+	
+	% Sommaire
+	\begin{frame}{Sommaire}
+		\tableofcontents
+	\end{frame}
+	
+	\section{Qu'est-ce que le Cloud Computing ?}
+	\begin{frame}{Qu'est-ce que le Cloud Computing ?}
+		\begin{itemize}
+			\item \textbf{Définition} : Le cloud computing est la fourniture de services informatiques via Internet.
+			\item \textbf{Modèles de service} :
+			\begin{itemize}
+				\item \textbf{IaaS} : Infrastructure as a Service (ex : AWS EC2).
+				\item \textbf{PaaS} : Platform as a Service (ex : Google App Engine).
+				\item \textbf{SaaS} : Software as a Service (ex : Google Workspace).
+			\end{itemize}
+			\item \textbf{Avantages} : Flexibilité, scalabilité, réduction des coûts.
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Pourquoi utiliser le Cloud ?}
+	\begin{frame}{Pourquoi utiliser le Cloud ?}
+		\begin{itemize}
+			\item \textbf{Flexibilité} : Accéder aux ressources à la demande.
+			\item \textbf{Scalabilité} : Ajuster les ressources en fonction des besoins.
+			\item \textbf{Réduction des coûts} : Pas besoin d'investir dans du matériel coûteux.
+			\item \textbf{Accès global} : Accéder aux données et applications de n'importe où.
+		\end{itemize}
+	\end{frame}
+	
+	
+	\section{Types de Cloud}
+	\begin{frame}{Types de Cloud}
+		\begin{itemize}
+			\item \textbf{Cloud Public} : Services fournis par des tiers (ex : AWS, Azure, Google Cloud).
+			\item \textbf{Cloud Privé} : Infrastructure dédiée à une seule organisation.
+			\item \textbf{Cloud Hybride} : Combinaison de cloud public et privé.
+		\end{itemize}
+	\end{frame}
+	
+   \section{Principaux fournisseurs de Cloud}
+   \begin{frame}{Principaux fournisseurs de Cloud}
+   	\begin{itemize}
+   		\item \textbf{Amazon Web Services (AWS)} : Leader du marché avec une large gamme de services.
+   		\item \textbf{Microsoft Azure} : Forte intégration avec les produits Microsoft.
+   		\item \textbf{Google Cloud Platform (GCP)} : Connu pour ses services de machine learning et de big data.
+   	\end{itemize}
+   \end{frame}
+   
+   \section{Services Cloud populaires}
+   \begin{frame}{Services Cloud populaires}
+   	\begin{itemize}
+   		\item \textbf{Calcul} : Machines virtuelles, conteneurs, fonctions serverless.
+   		\item \textbf{Stockage} : Stockage objet, stockage bloc, stockage fichier.
+   		\item \textbf{Bases de données} : Bases de données relationnelles, NoSQL, data warehouses.
+   		\item \textbf{Réseau} : Réseaux virtuels, équilibreurs de charge, CDN.
+   	\end{itemize}
+   \end{frame}
+
+
+\section{Exemple de déploiement sur le Cloud}
+\begin{frame}{Exemple de déploiement sur le Cloud}
+	\begin{enumerate}
+		\item Créer une machine virtuelle sur AWS EC2.
+		\item Configurer un stockage S3 pour les fichiers.
+		\item Déployer une application sur la machine virtuelle.
+		\item Configurer un équilibreur de charge pour la haute disponibilité.
+	\end{enumerate}
+\end{frame}
+
+
+\section{Bonnes pratiques}
+\begin{frame}{Bonnes pratiques}
+	\begin{itemize}
+		\item \textbf{Sécurité} : Utiliser des groupes de sécurité, des VPN, et des politiques d'accès.
+		\item \textbf{Optimisation des coûts} : Surveiller l'utilisation des ressources et utiliser des instances réservées.
+		\item \textbf{Gestion des données} : Sauvegarder régulièrement les données et utiliser des services de réplication.
+	\end{itemize}
+\end{frame}
+
+\section{Outils pour travailler avec le Cloud}
+\begin{frame}{Outils pour travailler avec le Cloud}
+	\begin{itemize}
+		\item \textbf{Terraform} : Outil d'infrastructure as code pour gérer les ressources cloud.
+		\item \textbf{Ansible} : Outil d'automatisation pour la configuration et le déploiement.
+		\item \textbf{CloudWatch (AWS)} : Service de surveillance pour les ressources AWS.
+	\end{itemize}
+\end{frame}
+
+
+\section{Pourquoi c'est important ?}
+\begin{frame}{Pourquoi c'est important ?}
+	\begin{itemize}
+		\item Le cloud computing est essentiel pour les entreprises modernes.
+		\item Il permet de stocker, traiter et gérer des données et des applications de manière flexible et scalable.
+		\item Comprendre le cloud est crucial pour les développeurs, les administrateurs système, et les professionnels de l'informatique.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Résumé}
+	\textbf{Le cloud computing} est une technologie clé pour le stockage, le traitement des données, et le déploiement d'applications.  
+	Automatisez pour déployer mieux, plus vite, et avec confiance !
+\end{frame}
+
+	
+	
+\end{document}

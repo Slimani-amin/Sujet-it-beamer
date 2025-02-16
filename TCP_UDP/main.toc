@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Qu'est-ce que TCP ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Qu'est-ce que UDP ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Différences entre TCP et UDP}{5}{0}{3}
+\beamer@sectionintoc {4}{Fonctionnement de TCP}{6}{0}{4}
+\beamer@sectionintoc {5}{Fonctionnement de UDP}{7}{0}{5}
+\beamer@sectionintoc {6}{Avantages et inconvénients}{8}{0}{6}
+\beamer@sectionintoc {7}{Exemples d'utilisation}{9}{0}{7}
+\beamer@sectionintoc {8}{Outils pour tester TCP/UDP}{10}{0}{8}
+\beamer@sectionintoc {9}{Exemple de commandes}{11}{0}{9}
+\beamer@sectionintoc {10}{Pourquoi c'est important ?}{12}{0}{10}

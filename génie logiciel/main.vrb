@@ -1,0 +1,17 @@
+\frametitle{Exemple de gestion de version avec Git}
+\begin{exampleblock}{Commandes Git}
+			\begin{minted}[fontsize=\scriptsize]{bash}
+# Cloner un dépôt
+git clone https://github.com/user/repo.git
+				
+# Créer une branche
+git checkout -b feature-branch
+				
+# Faire un commit
+git add .
+git commit -m "Ajouter une nouvelle fonctionnalité"
+				
+# Pousser les modifications
+git push origin feature-branch
+			\end{minted}
+		\end{exampleblock}

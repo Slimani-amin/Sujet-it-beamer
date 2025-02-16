@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction à Git}{3}{0}{1}
+\beamer@sectionintoc {2}{Concepts de base de Git}{4}{0}{2}
+\beamer@sectionintoc {3}{Introduction à GitHub}{5}{0}{3}
+\beamer@sectionintoc {4}{Commandes Git essentielles}{6}{0}{4}
+\beamer@sectionintoc {5}{Bonnes pratiques}{7}{0}{5}

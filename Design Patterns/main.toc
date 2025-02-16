@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Qu'est-ce qu'un Design Pattern ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Pourquoi utiliser des Design Patterns ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Catégories de Design Patterns}{5}{0}{3}
+\beamer@sectionintoc {4}{Exemples de Design Patterns}{6}{0}{4}
+\beamer@sectionintoc {5}{Exemple de code : Singleton}{7}{0}{5}
+\beamer@sectionintoc {6}{Exemple de code : Factory}{8}{0}{6}
+\beamer@sectionintoc {7}{Exemple de code : Observer}{9}{0}{7}
+\beamer@sectionintoc {8}{Bonnes pratiques}{10}{0}{8}
+\beamer@sectionintoc {9}{Outils pour travailler avec les Design Patterns}{11}{0}{9}
+\beamer@sectionintoc {10}{Défis des Design Patterns}{12}{0}{10}
+\beamer@sectionintoc {11}{Pourquoi c'est important ?}{13}{0}{11}

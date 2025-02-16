@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Qu'est-ce que la complexité ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Pourquoi étudier la complexité ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Concepts de base de la complexité}{5}{0}{3}
+\beamer@sectionintoc {4}{Classes de complexité}{6}{0}{4}
+\beamer@sectionintoc {5}{Exemple d'analyse de complexité}{7}{0}{5}
+\beamer@sectionintoc {6}{Bonnes pratiques}{8}{0}{6}
+\beamer@sectionintoc {7}{Outils pour analyser la complexité}{9}{0}{7}
+\beamer@sectionintoc {8}{Exemple d'application avec Python}{10}{0}{8}
+\beamer@sectionintoc {9}{Défis de la complexité}{11}{0}{9}
+\beamer@sectionintoc {10}{Pourquoi c'est important ?}{12}{0}{10}

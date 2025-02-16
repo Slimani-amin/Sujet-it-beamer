@@ -1,0 +1,13 @@
+\frametitle{Exemple de commandes Docker}
+\begin{exampleblock}{Commandes Docker}
+		\begin{minted}[fontsize=\scriptsize]{bash}
+# Construire une image
+docker build -t mon-image .
+			
+# Lancer un conteneur
+docker run -d -p 80:80 mon-image
+			
+# Lister les conteneurs en cours d'exécution
+docker ps
+		\end{minted}
+	\end{exampleblock}

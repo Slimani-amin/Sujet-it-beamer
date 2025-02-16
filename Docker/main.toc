@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Qu'est-ce qu'un conteneur ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Qu'est-ce que Docker ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Concepts de base de Docker}{5}{0}{3}
+\beamer@sectionintoc {4}{Cycle de vie d'un conteneur}{6}{0}{4}
+\beamer@sectionintoc {5}{Dockerfile}{7}{0}{5}
+\beamer@sectionintoc {6}{Docker Compose}{8}{0}{6}
+\beamer@sectionintoc {7}{Bonnes pratiques}{9}{0}{7}
+\beamer@sectionintoc {8}{Outils pour travailler avec Docker}{10}{0}{8}
+\beamer@sectionintoc {9}{Exemple de commandes Docker}{11}{0}{9}
+\beamer@sectionintoc {10}{Pourquoi c'est important ?}{12}{0}{10}

@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Qu'est-ce que HTTP ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Qu'est-ce que HTTPS ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Différences entre HTTP et HTTPS}{5}{0}{3}
+\beamer@sectionintoc {4}{Requête HTTP/HTTPS}{6}{0}{4}
+\beamer@sectionintoc {5}{Bonnes pratiques}{7}{0}{5}
+\beamer@sectionintoc {6}{Outils pour tester HTTP/HTTPS}{8}{0}{6}
+\beamer@sectionintoc {7}{Exemple de requête avec \texttt {curl}}{9}{0}{7}
+\beamer@sectionintoc {8}{Pourquoi c'est important ?}{10}{0}{8}

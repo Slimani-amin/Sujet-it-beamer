@@ -1,0 +1,12 @@
+\frametitle{Exemple d'analyse syntaxique}
+\begin{exampleblock}{Arbre syntaxique}
+			\begin{minted}[fontsize=\scriptsize]{text}
+FunctionDeclaration
+|---Type: int
+|---Name: main
+|--- Parameters: ()
+|--- Body:
+     |---ReturnStatement
+         |--- Expression: 0
+			\end{minted}
+		\end{exampleblock}

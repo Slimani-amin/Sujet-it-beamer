@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Qu'est-ce que le Génie Logiciel ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Pourquoi le Génie Logiciel est-il important ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Cycle de vie du développement logiciel (SDLC)}{5}{0}{3}
+\beamer@sectionintoc {4}{Modèles de développement}{6}{0}{4}
+\beamer@sectionintoc {5}{Outils et technologies}{7}{0}{5}
+\beamer@sectionintoc {6}{Bonnes pratiques}{8}{0}{6}
+\beamer@sectionintoc {7}{Exemple de workflow agile avec Scrum}{9}{0}{7}
+\beamer@sectionintoc {8}{Exemple de gestion de version avec Git}{10}{0}{8}
+\beamer@sectionintoc {9}{Défis du Génie Logiciel}{11}{0}{9}
+\beamer@sectionintoc {10}{Pourquoi c'est important ?}{12}{0}{10}

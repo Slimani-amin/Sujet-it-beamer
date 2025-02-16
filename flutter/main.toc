@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{Qu'est-ce que Flutter ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Pourquoi utiliser Flutter ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Composants de Flutter}{5}{0}{3}
+\beamer@sectionintoc {4}{Architecture de Flutter}{6}{0}{4}
+\beamer@sectionintoc {5}{Exemple de code Flutter}{7}{0}{5}
+\beamer@sectionintoc {6}{Bonnes pratiques}{8}{0}{6}
+\beamer@sectionintoc {7}{Outils pour travailler avec Flutter}{9}{0}{7}
+\beamer@sectionintoc {8}{Défis de Flutter}{10}{0}{8}
+\beamer@sectionintoc {9}{Pourquoi c'est important ?}{11}{0}{9}

@@ -1,0 +1,127 @@
+\documentclass{clbeamer2024}
+
+\usepackage{minted}
+
+\usepackage{minted}
+\setminted{
+	breaklines=true,
+	frame=single,
+	bgcolor=lightgray,
+	fontsize=\small,
+	escapeinside=||
+}
+
+\usepackage{xcolor}
+\definecolor{bg}{rgb}{0.95, 0.95, 0.92} % Couleur gris clair
+
+\title{
+	\includegraphics[width=0.8cm]{logos/Http.png} \hfill
+	HTTP/HTTPS \hfill
+	\includegraphics[width=0.8cm]{logos/https.png}
+}
+\subtitle{Comprendre les bases des protocoles web}
+\author{Slimani Mohamed Amine}
+\institute{}
+\date{\today}
+
+\begin{document}
+	\setcounter{framenumber}{-1}
+	\frame{\titlepage}
+	
+	
+	
+	% Sommaire
+	\begin{frame}{Sommaire}
+		\tableofcontents
+	\end{frame}
+	
+
+\section{Qu'est-ce que HTTP ?}
+\begin{frame}{Qu'est-ce que HTTP ?}
+	\begin{itemize}
+		\item \textbf{Définition} : Un protocole de communication utilisé pour transférer des données sur le web.
+		\item \textbf{Fonctionnement} : Requête-réponse entre un client (navigateur) et un serveur.
+		\item \textbf{Exemple} : Lorsque vous visitez un site web, votre navigateur envoie une requête HTTP au serveur, qui répond avec le contenu de la page.
+	\end{itemize}
+\end{frame}
+
+\section{Qu'est-ce que HTTPS ?}
+\begin{frame}{Qu'est-ce que HTTPS ?}
+	\begin{itemize}
+		\item \textbf{Définition} : Une version sécurisée de HTTP qui utilise le chiffrement SSL/TLS.
+		\item \textbf{Pourquoi HTTPS ?} : Protège les données contre les interceptions et les attaques.
+		\item \textbf{Exemple} : Les sites de commerce électronique utilisent HTTPS pour sécuriser les transactions.
+	\end{itemize}
+\end{frame}
+
+\section{Différences entre HTTP et HTTPS}
+\begin{frame}{Différences entre HTTP et HTTPS}
+	\begin{itemize}
+		\item \textbf{Chiffrement} : HTTPS chiffre les données, HTTP non.
+		\item \textbf{Port} : HTTP utilise le port 80, HTTPS utilise le port 443.
+		\item \textbf{Certificats} : HTTPS nécessite un certificat SSL/TLS.
+	\end{itemize}
+\end{frame}
+
+
+\section{Requête HTTP/HTTPS}
+\begin{frame}{Requête HTTP/HTTPS}
+	\begin{itemize}
+		\item \textbf{Structure d'une requête HTTP} :
+		\begin{itemize}
+			\item Méthode (GET, POST, etc.)
+			\item En-têtes (Headers)
+			\item Corps (Body)
+		\end{itemize}
+		\item \textbf{Structure d'une réponse HTTP} :
+		\begin{itemize}
+			\item Code de statut (200, 404, etc.)
+			\item En-têtes (Headers)
+			\item Corps (Body)
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\section{Bonnes pratiques}
+\begin{frame}{Bonnes pratiques}
+	\begin{itemize}
+		\item \textbf{Toujours utiliser HTTPS} : Pour protéger les données des utilisateurs.
+		\item \textbf{Configurer correctement les certificats SSL/TLS} : Utiliser des certificats valides et à jour.
+		\item \textbf{Utiliser HSTS (HTTP Strict Transport Security)} : Pour forcer l'utilisation de HTTPS.
+	\end{itemize}
+\end{frame}
+
+\section{Outils pour tester HTTP/HTTPS}
+\begin{frame}{Outils pour tester HTTP/HTTPS}
+	\begin{itemize}
+		\item \textbf{curl} : Un outil en ligne de commande pour envoyer des requêtes HTTP/HTTPS.
+		\item \textbf{Postman} : Un outil graphique pour tester les API HTTP/HTTPS.
+		\item \textbf{SSL Labs} : Un site web pour vérifier la configuration SSL/TLS d'un serveur.
+	\end{itemize}
+	\end{frame}
+	
+	
+	\section{Exemple de requête avec \texttt{curl}}
+	\begin{frame}[fragile]{Exemple de requête avec \texttt{curl}}
+		\begin{exampleblock}{Commandes \texttt{curl}}
+			\begin{minted}[fontsize=\scriptsize]{bash}
+# Requête HTTP
+curl -v http://example.com
+				
+# Requête HTTPS
+curl -v https://example.com
+			\end{minted}
+		\end{exampleblock}
+	\end{frame}
+	
+	\section{Pourquoi c'est important ?}
+	\begin{frame}{Pourquoi c'est important ?}
+		\begin{itemize}
+			\item HTTP/HTTPS sont les protocoles de communication les plus utilisés sur le web.
+			\item HTTPS est essentiel pour protéger les données des utilisateurs.
+			\item Comprendre leur fonctionnement est crucial pour développer des applications web sécurisées.
+		\end{itemize}
+	\end{frame}
+	
+	
+\end{document}
