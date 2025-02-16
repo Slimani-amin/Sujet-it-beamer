@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Qu'est-ce que Scrum ?}{3}{0}{1}
+\beamer@sectionintoc {2}{Pourquoi utiliser Scrum ?}{4}{0}{2}
+\beamer@sectionintoc {3}{Les rôles dans Scrum}{5}{0}{3}
+\beamer@sectionintoc {4}{Les événements Scrum}{6}{0}{4}
+\beamer@sectionintoc {5}{Les artéfacts Scrum}{7}{0}{5}
+\beamer@sectionintoc {6}{Exemple de Sprint Planning}{8}{0}{6}
+\beamer@sectionintoc {7}{Exemple de Daily Scrum}{9}{0}{7}
+\beamer@sectionintoc {8}{Bonnes pratiques}{10}{0}{8}
+\beamer@sectionintoc {9}{Outils pour Scrum}{11}{0}{9}
+\beamer@sectionintoc {10}{Défis de Scrum}{12}{0}{10}
+\beamer@sectionintoc {11}{Pourquoi c'est important ?}{13}{0}{11}
